@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="61.957">
+    <testcase classname="Title of your feature" name="successful login with valid credentials" time="14.839">
+        <system-out>
+            <![CDATA[Given user launch chrome browser............................................passed
+When user opens url "https://www.facebook.com"..............................passed
+And user enters email as "rhasan@gmail.com" and password as "Abc!234".......passed
+And user click on login.....................................................passed
+Then page title should be "Facebook - log in or sign up"....................passed
+And close browser...........................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Title of your feature" name="successful login with valid credentials 2" time="12.53">
+        <system-out>
+            <![CDATA[Given user launch chrome browser............................................passed
+When user opens url "https://www.facebook.com"..............................passed
+And user enters email as "rhasan123@gmail.com" and password as "Pqer!trt77".passed
+And user click on login.....................................................passed
+Then page title should be "Facebook - log in or sign up"....................passed
+And close browser...........................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Title of your feature" name="successful login with valid credentials 3" time="34.382">
+        <system-out>
+            <![CDATA[Given user launch chrome browser............................................passed
+When user opens url "https://www.facebook.com"..............................passed
+And user enters email as "syed.ali@yahoo.com" and password as "Qwjfjkdh7"...passed
+And user click on login.....................................................passed
+Then page title should be "Facebook - log in or sign up"....................passed
+And close browser...........................................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

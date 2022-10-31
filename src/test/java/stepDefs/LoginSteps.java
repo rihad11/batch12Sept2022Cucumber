@@ -38,6 +38,7 @@ public class LoginSteps {
 	public void user_successfully_logged_in() {
 	    
 		Assert.assertEquals(driver.getTitle(), "Facebook - log in or sign up");
+		System.out.println("running test successfully");
 		driver.quit();
 	}
 	

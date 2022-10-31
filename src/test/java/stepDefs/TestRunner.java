@@ -9,8 +9,9 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(features = "/Users/rihad/eclipse-workspace/CucumberProject/src/test/resources/Features",
 glue = {"stepDefs"},
 monochrome = true,
-plugin = {"pretty", "html:target/HtmlReports"},
-tags = "@tag1"
+plugin = {"pretty", "junit:target/HtmlReports.xml"},
+tags = "@RegressionTest",
+dryRun = false
 		)
 public class TestRunner {
 
